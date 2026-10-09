@@ -1,0 +1,112 @@
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.python-version
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Packaging and build artifacts
+build/
+dist/
+wheels/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Testing, coverage and type checking
+.pytest_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+.mypy_cache/
+.dmypy.json
+.pyre/
+.ruff_cache/
+.hypothesis/
+
+# =========================
+# Odoo
+# =========================
+
+# Runtime logs
+*.log
+odoo.log
+
+# Odoo sessions and runtime data
+/sessions/
+/data/
+
+# Generated Odoo filestore and database dumps
+/filestore/
+/backups/
+*.dump
+*.sql
+*.sql.gz
+*.zip
+
+# Generated reports and temporary files
+*.pdf
+*.tmp
+*.temp
+
+# =========================
+# Local configuration / secrets
+# =========================
+.env
+.env.*
+!.env.example
+
+# Local Odoo configuration files
+odoo.conf
+odoo*.conf
+*.conf.local
+
+# Certificates and private keys
+*.pem
+*.key
+*.p12
+*.pfx
+
+# =========================
+# Editors and IDEs
+# =========================
+
+# VS Code
+.vscode/
+
+# JetBrains: PyCharm / IntelliJ / Rider
+.idea/
+*.iml
+
+# Vim
+*.swp
+*.swo
+*~
+
+# =========================
+# Operating system
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# Local development scratch files
+# =========================
+*.bak
+*.orig
+*.rej
+*.patch~
+

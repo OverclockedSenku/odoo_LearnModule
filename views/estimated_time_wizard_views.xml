@@ -1,0 +1,20 @@
+<odoo>
+    <record id="estimated_time_wizard_form" model="ir.ui.view">
+        <field name="name">estimated.time.wizard.form</field>
+        <field name="model">estimated.time.wizard</field>
+        <field name="arch" type="xml">
+            <form string="Estimated Time Summary">
+                <group>
+                    <field name="product_qty"/>
+                    <field name="estimated_time"/>
+                    <field name="estimated_total_time"/>
+                </group>
+                <footer>
+                    <button string="Close"
+                            special="cancel"
+                            class="btn-secondary"/>
+                </footer>
+            </form>
+        </field>
+    </record>
+</odoo>
